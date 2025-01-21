@@ -8,7 +8,7 @@ path = "src/lib.rs"
 crate-type = ["cdylib"]
 [dependencies]
 async-openai-wasm = { git = "https://github.com/ifsheldon/async-openai-wasm", branch = "wasm" }
-async-openai = "0.16.4"
+async-openai = "0.27.2"
 tg-flows = "0.3"
 serde_json = "1.0.95"
 tokio_wasi = { version = "1.25.1", features = ["macros", "rt"] }
