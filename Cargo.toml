@@ -7,7 +7,7 @@ edition = "2021"
 path = "src/lib.rs"
 crate-type = ["cdylib"]
 [dependencies]
-async-openai-wasm = { git = "https://github.com/ifsheldon/async-openai-wasm", branch = "wasm" }
+async-openai-wasm = { git = "https://github.com/ifsheldon/async-openai-wasm", tag = "0.23.1" }
 async-openai = "0.27.2"
 tg-flows = "0.3"
 serde_json = "1.0.95"
